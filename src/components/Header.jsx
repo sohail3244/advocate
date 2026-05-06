@@ -131,7 +131,7 @@ export default function Header() {
                 className="mt-20 pt-12 border-t border-white/10 w-full max-w-xs"
               >
                 <p className="text-zinc-500 uppercase tracking-widest text-[10px] mb-4 font-bold">Quick Contact</p>
-                <p className="text-xl font-bold text-white tracking-widest">+91 98765 43210</p>
+                <p className="text-xl font-bold text-white tracking-widest">+91 96807 52017</p>
                 <div className="flex justify-center gap-6 mt-8">
                    <span className="text-zinc-400 text-xs border-b border-zinc-800">Instagram</span>
                    <span className="text-zinc-400 text-xs border-b border-zinc-800">LinkedIn</span>
