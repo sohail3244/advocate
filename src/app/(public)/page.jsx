@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { ShieldCheck, Gavel, Users, ArrowUpRight } from "lucide-react";
 import PracticeAreasPage from "./practice-area/page";
 
-const AdvocateLandingPage = () => {
+export default function Home  ()  {
   const fadeInUp = {
     initial: { opacity: 0, y: 30 },
     whileInView: { opacity: 1, y: 0 },
@@ -117,5 +117,3 @@ const AdvocateLandingPage = () => {
     </div>
   );
 };
-
-export default AdvocateLandingPage;
