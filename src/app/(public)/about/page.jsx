@@ -67,7 +67,7 @@ export default function AboutPage() {
             className="relative aspect-square sm:aspect-video lg:aspect-square rounded-[30px] md:rounded-[60px] overflow-hidden border border-white/10 group shadow-2xl"
           >
             <img 
-              src="https://i.pinimg.com/736x/63/aa/3f/63aa3fdf97239bb898a1a46fe21b5038.jpg" 
+              src="saddam.jpeg" 
               alt="Office Ambience" 
               className="w-full h-full object-cover grayscale transition-all duration-1000 group-hover:grayscale-0 group-hover:scale-110"
             />

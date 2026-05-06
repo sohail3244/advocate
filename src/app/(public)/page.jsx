@@ -94,7 +94,7 @@ const AdvocateLandingPage = () => {
               {/* Added backdrop-blur to the image container for a premium feel */}
               <div className="relative w-full max-w-70 sm:max-w-87.5 lg:max-w-md aspect-4/5 rounded-[40px] md:rounded-[60px] overflow-hidden border border-white/10 group shadow-2xl bg-zinc-900/20 backdrop-blur-sm">
                 <img
-                  src="https://i.pinimg.com/736x/b3/2c/70/b32c7095033031ba07b21678607a4545.jpg"
+                  src="/saddam.jpeg"
                   alt="Sohail Ahmed - Advocate"
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 scale-105 group-hover:scale-100"
                 />

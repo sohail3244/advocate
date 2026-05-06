@@ -121,9 +121,7 @@ export default function PracticeAreasPage() {
                   {area.desc}
                 </p>
 
-                <div className="flex items-center gap-2 text-[10px] md:text-xs font-black uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-4 group-hover:translate-y-0">
-                  Explore Expertise <ArrowRight size={14} />
-                </div>
+                
               </div>
 
               {/* Decorative Corner Element */}
