@@ -73,7 +73,7 @@ export default function Footer() {
   {/* WhatsApp (AUTO MESSAGE) */}
   <motion.a
     whileHover={{ y: -3, scale: 1.1 }}
-    href={`https://wa.me/917240737530?text=${encodeURIComponent(
+    href={`https://wa.me/9680752017?text=${encodeURIComponent(
       "Hello, I want to book a consultation."
     )}`}
     target="_blank"
@@ -120,7 +120,7 @@ export default function Footer() {
               <li className="flex items-center gap-4 group">
                 <Phone className="text-white/40 group-hover:text-white transition-colors shrink-0" size={18} />
                 <span className="text-zinc-500 group-hover:text-zinc-300 text-sm transition-colors">
-                  +91 98765 43210
+                  +91 96807 52017
                 </span>
               </li>
               <li className="flex items-center gap-4 group">

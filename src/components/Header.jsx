@@ -27,7 +27,6 @@ export default function Header() {
       <motion.header
         initial={{ y: -100 }}
         animate={{ y: 0 }}
-        // Is Scrolled logic ko text color aur padding ke liye use kiya hai, background ko transparent rakha hai
         className={`fixed top-0 w-full z-100 transition-all duration-500 ${
           isScrolled ? 'py-4' : 'py-8'
         } bg-transparent`}
@@ -49,7 +48,7 @@ export default function Header() {
               <Scale className="h-5 w-5 text-black relative z-10" />
             </div>
             <div className="flex flex-col leading-none">
-              <span className="text-lg font-black tracking-tighter uppercase text-white">Justice & Co.</span>
+              <span className="text-lg font-black tracking-tighter uppercase text-white">Saddam Hussain</span>
               <span className="text-[9px] uppercase tracking-[0.3em] text-zinc-400 font-bold">Private Chambers</span>
             </div>
           </motion.div>
@@ -74,7 +73,7 @@ export default function Header() {
           <div className="hidden md:flex items-center gap-4 relative z-110">
             <button
   onClick={() => {
-    const phone = "917240737530"; // +91 hata ke number likho
+    const phone = "919680752017"; 
     const message = "Hello, I want to book a consultation.";
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");

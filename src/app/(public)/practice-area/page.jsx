@@ -149,7 +149,7 @@ export default function PracticeAreasPage() {
           </p>
           <button
             onClick={() => {
-              const phone = "917240737530";
+              const phone = "9680752017";
               const message = "Hello, I want to book a consultation.";
               const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
               window.open(url, "_blank");

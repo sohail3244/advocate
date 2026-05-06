@@ -50,7 +50,7 @@ export default function AboutPage() {
             className="text-center lg:text-left"
           >
             <div className="inline-block px-4 py-1.5 border border-white/10 rounded-full text-[9px] md:text-[10px] uppercase tracking-[0.3em] font-bold mb-6 md:mb-8 bg-white/5 backdrop-blur-md">
-              Since 2026
+              Saddam Hussain
             </div>
             <h1 className="text-5xl sm:text-6xl md:text-8xl font-black tracking-tighter leading-none mb-6 md:mb-8">
               THE <br className="hidden md:block" />
@@ -82,19 +82,16 @@ export default function AboutPage() {
               <h2 className="text-2xl md:text-3xl font-bold tracking-tighter uppercase mb-4">The Lead Counsel</h2>
               <div className="w-16 h-1 bg-white mb-6 md:mb-8" />
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4">
-                <div className="flex items-center gap-4 text-zinc-400">
-                  <BookOpen size={18} className="shrink-0" />
-                  <span className="text-[10px] md:text-xs uppercase tracking-widest">BCA Graduate - MAU</span>
-                </div>
+                
                 <div className="flex items-center gap-4 text-zinc-400">
                   <History size={18} className="shrink-0" />
-                  <span className="text-[10px] md:text-xs uppercase tracking-widest">Full-Stack Experience</span>
+                  <span className="text-[10px] md:text-xs uppercase tracking-widest">Full Experience</span>
                 </div>
               </div>
             </div>
             <div className="w-full lg:w-2/3">
               <p className="text-zinc-400 text-xl md:text-2xl font-light leading-relaxed italic">
-                "Sohail Ahmed brings a unique, tech-driven perspective to the legal world. As a full-stack developer turned private counsel, he understands the architecture of both code and law, providing clients with modern solutions to age-old disputes."
+                "Saddam Hussain brings a unique, tech-driven perspective to the legal world. As a full-stack developer turned private counsel, he understands the architecture of law, providing clients with modern solutions to age-old disputes."
               </p>
             </div>
           </div>
@@ -123,11 +120,11 @@ export default function AboutPage() {
           <div className="relative z-10">
             <h2 className="text-3xl md:text-6xl font-black mb-6 md:mb-8 uppercase tracking-tighter">Jaipur Roots.<br className="md:hidden" /> Global Vision.</h2>
             <p className="text-zinc-400 max-w-2xl mx-auto text-sm md:text-base font-light mb-10 md:mb-12 leading-relaxed px-2">
-              Operating from C-Scheme, Jaipur, we are committed to the local community while serving corporate and private interests across India. Our firm combines the royal grit of Rajasthan with a futuristic legal approach.
+              Operating from High Court, Jaipur, we are committed to the local community while serving corporate and private interests across India. Our firm combines the royal grit of Rajasthan with a futuristic legal approach.
             </p>
-            <button className="w-full sm:w-auto bg-white text-black px-8 md:px-12 py-4 md:py-5 rounded-full font-black text-xs md:text-sm uppercase tracking-widest hover:bg-zinc-200 transition-all flex items-center justify-center gap-3 mx-auto">
+            {/* <button className="w-full sm:w-auto bg-white text-black px-8 md:px-12 py-4 md:py-5 rounded-full font-black text-xs md:text-sm uppercase tracking-widest hover:bg-zinc-200 transition-all flex items-center justify-center gap-3 mx-auto">
               Our Practice Areas <ArrowRight size={18} />
-            </button>
+            </button> */}
           </div>
           <Scale className="absolute -bottom-10 -right-10 w-40 h-40 md:w-80 md:h-80 opacity-[0.03] text-white hidden sm:block" />
         </div>

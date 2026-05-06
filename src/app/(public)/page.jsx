@@ -38,7 +38,7 @@ export default function Home  ()  {
                 className="inline-flex items-center gap-2 px-4 py-1.5 border border-white/10 backdrop-blur-md rounded-full text-[9px] md:text-[10px] uppercase tracking-[0.2em] font-bold bg-white/5"
               >
                 <span className="w-2 h-2 bg-white rounded-full animate-pulse" />
-                Sohail Ahmed | Private Counsel
+                Saddam Hussain | Private Counsel
               </motion.div>
 
               <motion.h1
@@ -71,7 +71,7 @@ export default function Home  ()  {
               >
                 <button
                   onClick={() => {
-                    const phone = "917240737530"; // +91 hata ke number likho
+                    const phone = "9680752017"; // +91 hata ke number likho
                     const message = "Hello, I want to book a consultation.";
                     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
                     window.open(url, "_blank");
