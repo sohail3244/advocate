@@ -54,7 +54,6 @@ export default function CaseStudiesPage() {
   return (
     <div className="min-h-screen bg-black text-white pt-32 pb-20 px-6">
       
-      {/* Background Ambience */}
       <div className="fixed inset-0 z-0">
         <div className="absolute top-[20%] right-[-10%] w-125 h-125 bg-zinc-900/40 blur-[120px] rounded-full" />
         <div className="absolute bottom-0 left-[-5%] w-100 h-100 bg-white/5 blur-[100px] rounded-full" />
