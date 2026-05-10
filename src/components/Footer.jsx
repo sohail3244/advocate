@@ -63,7 +63,7 @@ export default function Footer() {
   {/* Instagram */}
   <motion.a
     whileHover={{ y: -3, scale: 1.1 }}
-    href="https://instagram.com/your-username"
+    href="https://www.instagram.com/digital_saddam_crimnal_lawyer/"
     target="_blank"
     className="p-2 border border-white/10 rounded-full hover:bg-white hover:text-black transition-all"
   >
@@ -73,7 +73,7 @@ export default function Footer() {
   {/* WhatsApp (AUTO MESSAGE) */}
   <motion.a
     whileHover={{ y: -3, scale: 1.1 }}
-    href={`https://wa.me/9680752017?text=${encodeURIComponent(
+    href={`https://wa.me/919680752017?text=${encodeURIComponent(
       "Hello, I want to book a consultation."
     )}`}
     target="_blank"
@@ -113,7 +113,7 @@ export default function Footer() {
               <li className="flex items-start gap-4 group">
                 <MapPin className="text-white/40 group-hover:text-white transition-colors mt-1 shrink-0" size={18} />
                 <span className="text-zinc-500 group-hover:text-zinc-300 text-sm transition-colors">
-                  C-Scheme, District Court Road,
+                   High Court,
                   <br /> Jaipur, Rajasthan 302001
                 </span>
               </li>
@@ -126,7 +126,7 @@ export default function Footer() {
               <li className="flex items-center gap-4 group">
                 <Mail className="text-white/40 group-hover:text-white transition-colors shrink-0" size={18} />
                 <span className="text-zinc-500 group-hover:text-zinc-300 text-sm transition-colors underline underline-offset-4 decoration-white/20">
-                  counsel@justicejaipur.com
+                  saddamhusainphulera@gmail.com
                 </span>
               </li>
             </ul>

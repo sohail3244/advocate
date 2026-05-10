@@ -71,7 +71,7 @@ export default function Home  ()  {
               >
                 <button
                   onClick={() => {
-                    const phone = "9680752017"; // +91 hata ke number likho
+                    const phone = "919680752017"; // +91 hata ke number likho
                     const message = "Hello, I want to book a consultation.";
                     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
                     window.open(url, "_blank");
